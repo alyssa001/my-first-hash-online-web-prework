@@ -1,5 +1,5 @@
 def my_hash
-  my_hash = {"male_cat" => "Duman", "female_cat" => "Leyla"}
+  my_pets = {"male cat" => "Duman", "female cat" => "Leyla"}
 end
 
 
@@ -16,6 +16,7 @@ def retrieval
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
+  shipping_manifest["oil paintings"]
 end
 
 def adding
